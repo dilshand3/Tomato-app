@@ -43,7 +43,7 @@ const PlaceOrder = () => {
               <b>${getTotalCartAmount()===0?0:getTotalCartAmount()+2}</b>
             </div>
           </div>
-          <button onClick={() => navigate('/')}>PROCEED TO CHECKOUT</button>
+          <button onClick={() => window.location.href("/")}>PROCEED TO CHECKOUT</button>
         </div>
       </div>
     </form>
