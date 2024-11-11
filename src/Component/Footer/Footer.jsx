@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Footer.css"
 import { assets } from "../../assets/frontend_assets/assets"
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -33,7 +34,7 @@ const Footer = () => {
         </div>
       </div>
       <hr />
-      <p className='footer-copyright'>© Copyright 2024 Tomato.com - All Right Reserved</p>
+      <p className='footer-copyright'>© Copyright 2024 Tomato.com - All Right Reserved to <Link to={"https://dilshan-woad.vercel.app/"}>dilshan.d3</Link></p>
     </div>
   )
 }
